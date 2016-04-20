@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="c:\lazarus\fpc\2.4.2\bin\x86_64-win64\fpc.exe" Date="1048489592"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gl -WG -vewnhi -l &quot;-FiC:\Users\George.DZB\Lazarus Projects\PISC\lib\x86_64-win64&quot; -Fuc:\lazarus\lcl\units\x86_64-win64 -Fuc:\lazarus\lcl\units\x86_64-win64\win32 -Fuc:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\George.DZB\Lazarus Projects\PISC\&quot; -Fu. &quot;-FUC:\Users\George.DZB\Lazarus Projects\PISC\lib\x86_64-win64\&quot; -opisc.exe -dLCL -dLCLwin32 pisc.lpr"/>
+</CONFIG>
