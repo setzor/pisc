@@ -5,8 +5,8 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ComCtrls, Buttons, StdCtrls, EditBtn, Printers, ExtCtrls;
+  Classes, SysUtils, FileUtil, LR_Class, Forms, Controls, Graphics, Dialogs,
+  Menus, ComCtrls, Buttons, StdCtrls, EditBtn, Printers, ExtCtrls;
 
 type
 
@@ -33,6 +33,7 @@ type
     Edit7: TEdit;
     Edit8: TEdit;
     Edit9: TEdit;
+    frReport1: TfrReport;
     Label17: TLabel;
     Label18: TLabel;
     Label19: TLabel;
@@ -117,7 +118,7 @@ var
 
 implementation
 //Adds Unit2 and Unit3 and Access to AboutForm (Form2)
-Uses Unit2, Unit3;
+Uses Unit2;
 
 { TForm1 }
 

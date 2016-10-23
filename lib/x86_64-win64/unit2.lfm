@@ -1,11 +1,12 @@
 object Form2: TForm2
-  Left = 918
-  Height = 230
-  Top = 265
+  Left = 1086
+  Height = 342
+  Top = 221
   Width = 315
+  BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'About'
-  ClientHeight = 230
+  ClientHeight = 342
   ClientWidth = 315
   Icon.Data = {
     4678020000000100080010100000010020006804000086000000181800000100
@@ -5069,10 +5070,10 @@ object Form2: TForm2
     FFFFFFFFFFFFFFFFFFFF
   }
   Position = poDesktopCenter
-  LCLVersion = '0.9.30'
+  LCLVersion = '1.4.4.0'
   object Label1: TLabel
     Left = 64
-    Height = 21
+    Height = 20
     Top = 16
     Width = 225
     Caption = 'Public Interest Score Calculator'
@@ -5087,10 +5088,10 @@ object Form2: TForm2
   end
   object Label2: TLabel
     Left = 64
-    Height = 16
+    Height = 15
     Top = 40
-    Width = 67
-    Caption = 'Version 0.0.1'
+    Width = 65
+    Caption = 'Version 0.2.0'
     ParentColor = False
   end
   object Image1: TImage
@@ -5098,7 +5099,6 @@ object Form2: TForm2
     Height = 33
     Top = 23
     Width = 37
-    OnClick = Image1Click
     Picture.Data = {
       055449636F6E4678020000000100080010100000010020006804000086000000
       181800000100200088090000EE0400002020000001002000A8100000760E0000
@@ -10162,18 +10162,18 @@ object Form2: TForm2
     }
   end
   object Panel1: TPanel
-    Left = 17
-    Height = 110
-    Top = 74
+    Left = 16
+    Height = 216
+    Top = 80
     Width = 287
-    ClientHeight = 110
+    ClientHeight = 216
     ClientWidth = 287
     TabOrder = 0
     object Label3: TLabel
       Left = 15
-      Height = 16
+      Height = 15
       Top = 6
-      Width = 142
+      Width = 141
       Caption = 'Programming and design:'
       Font.Style = [fsBold]
       ParentColor = False
@@ -10181,38 +10181,733 @@ object Form2: TForm2
     end
     object Label4: TLabel
       Left = 15
-      Height = 16
-      Top = 30
-      Width = 96
+      Height = 15
+      Top = 24
+      Width = 95
       Caption = 'George Stevenson'
       ParentColor = False
     end
-    object Label5: TLabel
+    object Label7: TLabel
       Left = 15
-      Height = 16
-      Top = 60
-      Width = 83
-      Caption = 'Initial concept:'
+      Height = 15
+      Top = 160
+      Width = 201
+      Caption = 'Open Source Licensed under GPL v3'
       Font.Style = [fsBold]
       ParentColor = False
       ParentFont = False
     end
-    object Label6: TLabel
+    object Label8: TLabel
+      Left = 16
+      Height = 15
+      Top = 176
+      Width = 206
+      Caption = 'Programmed with Lazarus IDE v1.0 RC1'
+      ParentColor = False
+    end
+    object Label9: TLabel
+      Left = 16
+      Height = 15
+      Top = 48
+      Width = 216
+      Caption = 'Send ideas, bug reports and requests to:  '
+      ParentColor = False
+    end
+    object Label10: TLabel
       Left = 15
-      Height = 16
-      Top = 81
-      Width = 118
-      Caption = 'Christine van Heerden'
+      Height = 15
+      Top = 64
+      Width = 132
+      Caption = 'stevenson.gt@gmail.com'
+      Font.Color = clHotLight
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 15
+      Height = 15
+      Top = 192
+      Width = 79
+      Caption = 'Build: Oct 2012'
       ParentColor = False
     end
   end
-  object Button1: TButton
-    Left = 128
-    Height = 25
-    Top = 192
-    Width = 75
-    Caption = 'Amazing'
-    OnClick = Button1Click
+  object CloseBtn: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 304
+    Width = 87
+    Caption = 'OK'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0059F86705FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF000A5F0DBE1F8023CD90FF9C09FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00045807BB4ECB57F977EE81FF207422DC64F67208FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00015404BD36BF40F860FE6FFF69FF78FF58F065FF127216DD3ADA
+      4909FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00014F02BB24B130F94FE95EFF78EF84FF79F284FF58F567FF4AE756FF0D6C
+      10DD1CBD2B08FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00074F
+      08BC24A130F953D75FFF88E491FF8EE596FF9FEAA5FF71E77CFF4AE759FF3FD6
+      4CFF08620BDD02991109FFFFFF00FFFFFF00FFFFFF00FFFFFF00055207A45DB4
+      66FE6FD179FF9DDFA3FF98DF9FFF238328F4207D25E299E5A0FF69DB74FF39D8
+      49FF31C23DFF035706DD00660809FFFFFF00FFFFFF00FFFFFF0009851516448F
+      49ECB5DDBAFFA9DAAEFF2F8F35F607AB173C13B5220617851ED1A5E2AAFF60D0
+      6AFF28C937FF22B02FFF034C05DC00480608FFFFFF00FFFFFF00FFFFFF000093
+      0714348F3AED3F9244F9009F0A41FFFFFF00FFFFFF000AAD190C117F19D1B3E3
+      B7FF55C460FF15B725FF13A320FF024A05DB00460609FFFFFF00FFFFFF00FFFF
+      FF0005A5141306A41435FFFFFF00FFFFFF00FFFFFF00FFFFFF00009F0D0B0E77
+      14D1B4DCB7FF51B25AFF069E14FF0B9517FF105312DD04480B10FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000096
+      080B107717D1B6D7B9FF529F5AFF3A9941FF499351FF014501B2FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00009B090B107817D0BAD7BDFF569E5DFF004D02B4FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00009D090B127618CD0F5D11B7FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0000930804FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = CloseBtnClick
     TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 304
+    Width = 87
+    Caption = 'License'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF0099570722AA6E155CB681237DB782247EAB70
+      155E9A590726FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF008C43081FA76E1F9FAB8A30F2B0A14BFFBEB865FFC1BB69FFB3A6
+      51FFAA8C32F5A66E1EA88F460927FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF008C420E39A2752BE2675B19FF4C4D06FF686A17FF7E7F2CFF81822FFF7072
+      1EFF535509FF5D5412FF986E25E98E440E44FFFFFF00FFFFFF00FFFFFF008234
+      0B219C6F2BE64B460FFF292B00FF2A2A00FF3C3C00FF505005FF525206FF4242
+      00FF2C2C00FF292B00FF3F3E09FF8E6523EE86370B2CFFFFFF00FFFFFF00985A
+      23A9554A16FF1D2000FF38380DFF9F9F87FF6B6B44FF2E2E00FF303000FF5454
+      27FFA6A68FFF4B4B21FF1D1F00FF423D0EFF90551FBA762207027D2A0F2A805D
+      27FA1E2001FF232406FFC5C5B9FFFFFFFFFF7B7B5FFF262600FF292900FF5A5A
+      38FFFEFEFEFFE2E2DCFF363718FF171A00FF694D1BFF802D0F38863A1B6B5544
+      1AFF060900FF71715DFFFFFFFFFF83836FFF1B1B00FF2A2A00FF2B2B00FF1F1F
+      00FF606043FFFFFFFFFF9E9E90FF070900FF3B310FFF8339177D85401F8F372E
+      11FF080A00FFB5B5AAFFF7F7F2FF46460AFF424200FF4A4A03FF4C4C03FF4A4A
+      02FF3E3E00FFDADACBFFE1E1DBFF282901FF2E2C07FF7D3B1AA1843F1F935851
+      0FFF3F4000FFC7C7ADFFF5F5EFFF646412FF5F5F09FF63630FFF636310FF6262
+      0EFF5A5A02FFDADAC7FFE9E9DDFF555602FF5B5A06FF81401AA47F321C768279
+      1EFF565803FFA6A676FFFFFFFFFF9C9C64FF67670FFF71711FFF717120FF6B6B
+      15FF868640FFFDFDFCFFC6C6A7FF5C5D06FF757119FF7D3419876C121339A08A
+      3BFF7E812BFF89893AFFEDEDE1FFFAFAF8FFA0A05FFF898934FF8B8B37FF9595
+      49FFEFEFE5FFFAFAF7FF999954FF7F822CFF978637FF6E1512495B0008049A63
+      36C4AFB15AFF9C9D47FFB2B26DFFE6E6CCFFBDBD7FFFA5A550FFA6A652FFB3B3
+      6AFFE8E8CFFFC0C085FF9E9F49FFACB159FF996635D25C000909FFFFFF006910
+      1039BCA15BF9C6CB76FFBBBC67FFBBBB66FFBFBF6CFFC1C170FFC2C270FFC0C0
+      6DFFBDBC67FFBCBD68FFC6CC76FFBBA45CFE6B141048FFFFFF00FFFFFF00FFFF
+      FF007421175DC9B06AFAE0E58FFFDADD89FFD8D986FFD8D986FFD9D987FFD9DA
+      87FFDBDE8AFFE1E790FFCAB46BFE7726186EFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF006A121044AE7E4ECDE0D488FFF0F19DFFF4F8A2FFF4F8A2FFF1F2
+      9EFFE2D789FFB08250D36C15104FFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00590005076F18144D8F4B3191A26944B3A26A44B4904C
+      3293701A14535A00050BFFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 232
+    Top = 64
+    Width = 287
+    Lines.Strings = (
+      'Mozilla Public License Version 2.0'
+      '================================'
+      '=='
+      ''
+      '1. Definitions'
+      '--------------'
+      ''
+      '1.1. "Contributor"'
+      '    means each individual or legal entity that '
+      'creates, contributes to'
+      '    the creation of, or owns Covered Software.'
+      ''
+      '1.2. "Contributor Version"'
+      '    means the combination of the Contributions '
+      'of others (if any) used'
+      '    by a Contributor and that particular '
+      'Contributor''s Contribution.'
+      ''
+      '1.3. "Contribution"'
+      '    means Covered Software of a particular '
+      'Contributor.'
+      ''
+      '1.4. "Covered Software"'
+      '    means Source Code Form to which the initial '
+      'Contributor has attached'
+      '    the notice in Exhibit A, the Executable Form of '
+      'such Source Code'
+      '    Form, and Modifications of such Source Code '
+      'Form, in each case'
+      '    including portions thereof.'
+      ''
+      '1.5. "Incompatible With Secondary Licenses"'
+      '    means'
+      ''
+      '    (a) that the initial Contributor has attached the '
+      'notice described'
+      '        in Exhibit B to the Covered Software; or'
+      ''
+      '    (b) that the Covered Software was made '
+      'available under the terms of'
+      '        version 1.1 or earlier of the License, but not '
+      'also under the'
+      '        terms of a Secondary License.'
+      ''
+      '1.6. "Executable Form"'
+      '    means any form of the work other than Source '
+      'Code Form.'
+      ''
+      '1.7. "Larger Work"'
+      '    means a work that combines Covered '
+      'Software with other material, in'
+      '    a separate file or files, that is not Covered '
+      'Software.'
+      ''
+      '1.8. "License"'
+      '    means this document.'
+      ''
+      '1.9. "Licensable"'
+      '    means having the right to grant, to the '
+      'maximum extent possible,'
+      '    whether at the time of the initial grant or '
+      'subsequently, any and'
+      '    all of the rights conveyed by this License.'
+      ''
+      '1.10. "Modifications"'
+      '    means any of the following:'
+      ''
+      '    (a) any file in Source Code Form that results '
+      'from an addition to,'
+      '        deletion from, or modification of the '
+      'contents of Covered'
+      '        Software; or'
+      ''
+      '    (b) any new file in Source Code Form that '
+      'contains any Covered'
+      '        Software.'
+      ''
+      '1.11. "Patent Claims" of a Contributor'
+      '    means any patent claim(s), including without '
+      'limitation, method,'
+      '    process, and apparatus claims, in any patent '
+      'Licensable by such'
+      '    Contributor that would be infringed, but for '
+      'the grant of the'
+      '    License, by the making, using, selling, offering '
+      'for sale, having'
+      '    made, import, or transfer of either its '
+      'Contributions or its'
+      '    Contributor Version.'
+      ''
+      '1.12. "Secondary License"'
+      '    means either the GNU General Public License, '
+      'Version 2.0, the GNU'
+      '    Lesser General Public License, Version 2.1, the '
+      'GNU Affero General'
+      '    Public License, Version 3.0, or any later '
+      'versions of those'
+      '    licenses.'
+      ''
+      '1.13. "Source Code Form"'
+      '    means the form of the work preferred for '
+      'making modifications.'
+      ''
+      '1.14. "You" (or "Your")'
+      '    means an individual or a legal entity exercising '
+      'rights under this'
+      '    License. For legal entities, "You" includes any '
+      'entity that'
+      '    controls, is controlled by, or is under common '
+      'control with You. For'
+      '    purposes of this definition, "control" means '
+      '(a) the power, direct'
+      '    or indirect, to cause the direction or '
+      'management of such entity,'
+      '    whether by contract or otherwise, or (b) '
+      'ownership of more than'
+      '    fifty percent (50%) of the outstanding shares '
+      'or beneficial'
+      '    ownership of such entity.'
+      ''
+      '2. License Grants and Conditions'
+      '--------------------------------'
+      ''
+      '2.1. Grants'
+      ''
+      'Each Contributor hereby grants You a world-'
+      'wide, royalty-free,'
+      'non-exclusive license:'
+      ''
+      '(a) under intellectual property rights (other than '
+      'patent or trademark)'
+      '    Licensable by such Contributor to use, '
+      'reproduce, make available,'
+      '    modify, display, perform, distribute, and '
+      'otherwise exploit its'
+      '    Contributions, either on an unmodified basis, '
+      'with Modifications, or'
+      '    as part of a Larger Work; and'
+      ''
+      '(b) under Patent Claims of such Contributor to '
+      'make, use, sell, offer'
+      '    for sale, have made, import, and otherwise '
+      'transfer either its'
+      '    Contributions or its Contributor Version.'
+      ''
+      '2.2. Effective Date'
+      ''
+      'The licenses granted in Section 2.1 with respect '
+      'to any Contribution'
+      'become effective for each Contribution on the '
+      'date the Contributor first'
+      'distributes such Contribution.'
+      ''
+      '2.3. Limitations on Grant Scope'
+      ''
+      'The licenses granted in this Section 2 are the '
+      'only rights granted under'
+      'this License. No additional rights or licenses will '
+      'be implied from the'
+      'distribution or licensing of Covered Software '
+      'under this License.'
+      'Notwithstanding Section 2.1(b) above, no patent '
+      'license is granted by a'
+      'Contributor:'
+      ''
+      '(a) for any code that a Contributor has removed '
+      'from Covered Software;'
+      '    or'
+      ''
+      '(b) for infringements caused by: (i) Your and any '
+      'other third party''s'
+      '    modifications of Covered Software, or (ii) the '
+      'combination of its'
+      '    Contributions with other software (except as '
+      'part of its Contributor'
+      '    Version); or'
+      ''
+      '(c) under Patent Claims infringed by Covered '
+      'Software in the absence of'
+      '    its Contributions.'
+      ''
+      'This License does not grant any rights in the '
+      'trademarks, service marks,'
+      'or logos of any Contributor (except as may be '
+      'necessary to comply with'
+      'the notice requirements in Section 3.4).'
+      ''
+      '2.4. Subsequent Licenses'
+      ''
+      'No Contributor makes additional grants as a '
+      'result of Your choice to'
+      'distribute the Covered Software under a '
+      'subsequent version of this'
+      'License (see Section 10.2) or under the terms of a '
+      'Secondary License (if'
+      'permitted under the terms of Section 3.3).'
+      ''
+      '2.5. Representation'
+      ''
+      'Each Contributor represents that the Contributor '
+      'believes its'
+      'Contributions are its original creation(s) or it has '
+      'sufficient rights'
+      'to grant the rights to its Contributions conveyed '
+      'by this License.'
+      ''
+      '2.6. Fair Use'
+      ''
+      'This License is not intended to limit any rights '
+      'You have under'
+      'applicable copyright doctrines of fair use, fair '
+      'dealing, or other'
+      'equivalents.'
+      ''
+      '2.7. Conditions'
+      ''
+      'Sections 3.1, 3.2, 3.3, and 3.4 are conditions of '
+      'the licenses granted'
+      'in Section 2.1.'
+      ''
+      '3. Responsibilities'
+      '-------------------'
+      ''
+      '3.1. Distribution of Source Form'
+      ''
+      'All distribution of Covered Software in Source '
+      'Code Form, including any'
+      'Modifications that You create or to which You '
+      'contribute, must be under'
+      'the terms of this License. You must inform '
+      'recipients that the Source'
+      'Code Form of the Covered Software is governed '
+      'by the terms of this'
+      'License, and how they can obtain a copy of this '
+      'License. You may not'
+      'attempt to alter or restrict the recipients'' rights in '
+      'the Source Code'
+      'Form.'
+      ''
+      '3.2. Distribution of Executable Form'
+      ''
+      'If You distribute Covered Software in Executable '
+      'Form then:'
+      ''
+      '(a) such Covered Software must also be made '
+      'available in Source Code'
+      '    Form, as described in Section 3.1, and You '
+      'must inform recipients of'
+      '    the Executable Form how they can obtain a '
+      'copy of such Source Code'
+      '    Form by reasonable means in a timely '
+      'manner, at a charge no more'
+      '    than the cost of distribution to the recipient; '
+      'and'
+      ''
+      '(b) You may distribute such Executable Form '
+      'under the terms of this'
+      '    License, or sublicense it under different terms, '
+      'provided that the'
+      '    license for the Executable Form does not '
+      'attempt to limit or alter'
+      '    the recipients'' rights in the Source Code Form '
+      'under this License.'
+      ''
+      '3.3. Distribution of a Larger Work'
+      ''
+      'You may create and distribute a Larger Work '
+      'under terms of Your choice,'
+      'provided that You also comply with the '
+      'requirements of this License for'
+      'the Covered Software. If the Larger Work is a '
+      'combination of Covered'
+      'Software with a work governed by one or more '
+      'Secondary Licenses, and the'
+      'Covered Software is not Incompatible With '
+      'Secondary Licenses, this'
+      'License permits You to additionally distribute '
+      'such Covered Software'
+      'under the terms of such Secondary License(s), so '
+      'that the recipient of'
+      'the Larger Work may, at their option, further '
+      'distribute the Covered'
+      'Software under the terms of either this License or '
+      'such Secondary'
+      'License(s).'
+      ''
+      '3.4. Notices'
+      ''
+      'You may not remove or alter the substance of '
+      'any license notices'
+      '(including copyright notices, patent notices, '
+      'disclaimers of warranty,'
+      'or limitations of liability) contained within the '
+      'Source Code Form of'
+      'the Covered Software, except that You may alter '
+      'any license notices to'
+      'the extent required to remedy known factual '
+      'inaccuracies.'
+      ''
+      '3.5. Application of Additional Terms'
+      ''
+      'You may choose to offer, and to charge a fee for, '
+      'warranty, support,'
+      'indemnity or liability obligations to one or more '
+      'recipients of Covered'
+      'Software. However, You may do so only on Your '
+      'own behalf, and not on'
+      'behalf of any Contributor. You must make it '
+      'absolutely clear that any'
+      'such warranty, support, indemnity, or liability '
+      'obligation is offered by'
+      'You alone, and You hereby agree to indemnify '
+      'every Contributor for any'
+      'liability incurred by such Contributor as a result '
+      'of warranty, support,'
+      'indemnity or liability terms You offer. You may '
+      'include additional'
+      'disclaimers of warranty and limitations of '
+      'liability specific to any'
+      'jurisdiction.'
+      ''
+      '4. Inability to Comply Due to Statute or '
+      'Regulation'
+      '---------------------------------------------------'
+      ''
+      'If it is impossible for You to comply with any of '
+      'the terms of this'
+      'License with respect to some or all of the '
+      'Covered Software due to'
+      'statute, judicial order, or regulation then You '
+      'must: (a) comply with'
+      'the terms of this License to the maximum extent '
+      'possible; and (b)'
+      'describe the limitations and the code they affect. '
+      'Such description must'
+      'be placed in a text file included with all '
+      'distributions of the Covered'
+      'Software under this License. Except to the extent '
+      'prohibited by statute'
+      'or regulation, such description must be '
+      'sufficiently detailed for a'
+      'recipient of ordinary skill to be able to '
+      'understand it.'
+      ''
+      '5. Termination'
+      '--------------'
+      ''
+      '5.1. The rights granted under this License will '
+      'terminate automatically'
+      'if You fail to comply with any of its terms. '
+      'However, if You become'
+      'compliant, then the rights granted under this '
+      'License from a particular'
+      'Contributor are reinstated (a) provisionally, '
+      'unless and until such'
+      'Contributor explicitly and finally terminates Your '
+      'grants, and (b) on an'
+      'ongoing basis, if such Contributor fails to notify '
+      'You of the'
+      'non-compliance by some reasonable means '
+      'prior to 60 days after You have'
+      'come back into compliance. Moreover, Your '
+      'grants from a particular'
+      'Contributor are reinstated on an ongoing basis if '
+      'such Contributor'
+      'notifies You of the non-compliance by some '
+      'reasonable means, this is the'
+      'first time You have received notice of non-'
+      'compliance with this License'
+      'from such Contributor, and You become '
+      'compliant prior to 30 days after'
+      'Your receipt of the notice.'
+      ''
+      '5.2. If You initiate litigation against any entity by '
+      'asserting a patent'
+      'infringement claim (excluding declaratory '
+      'judgment actions,'
+      'counter-claims, and cross-claims) alleging that a '
+      'Contributor Version'
+      'directly or indirectly infringes any patent, then '
+      'the rights granted to'
+      'You by any and all Contributors for the Covered '
+      'Software under Section'
+      '2.1 of this License shall terminate.'
+      ''
+      '5.3. In the event of termination under Sections '
+      '5.1 or 5.2 above, all'
+      'end user license agreements (excluding '
+      'distributors and resellers) which'
+      'have been validly granted by You or Your '
+      'distributors under this License'
+      'prior to termination shall survive termination.'
+      ''
+      '***************************************************'
+      '*********************'
+      '*                                                                      *'
+      '*  6. Disclaimer of Warranty                                       '
+      '    *'
+      '*  -------------------------                                         '
+      '  *'
+      '*                                                                      *'
+      '*  Covered Software is provided under this '
+      'License on an "as is"       *'
+      '*  basis, without warranty of any kind, either '
+      'expressed, implied, or  *'
+      '*  statutory, including, without limitation, '
+      'warranties that the       *'
+      '*  Covered Software is free of defects, '
+      'merchantable, fit for a        *'
+      '*  particular purpose or non-infringing. The '
+      'entire risk as to the     *'
+      '*  quality and performance of the Covered '
+      'Software is with You.        *'
+      '*  Should any Covered Software prove defective '
+      'in any respect, You     *'
+      '*  (not any Contributor) assume the cost of any '
+      'necessary servicing,   *'
+      '*  repair, or correction. This disclaimer of '
+      'warranty constitutes an   *'
+      '*  essential part of this License. No use of any '
+      'Covered Software is   *'
+      '*  authorized under this License except under this '
+      'disclaimer.         *'
+      '*                                                                      *'
+      '***************************************************'
+      '*********************'
+      ''
+      '***************************************************'
+      '*********************'
+      '*                                                                      *'
+      '*  7. Limitation of Liability                                          '
+      '*'
+      '*  --------------------------                                        '
+      '  *'
+      '*                                                                      *'
+      '*  Under no circumstances and under no legal '
+      'theory, whether tort      *'
+      '*  (including negligence), contract, or otherwise, '
+      'shall any           *'
+      '*  Contributor, or anyone who distributes '
+      'Covered Software as          *'
+      '*  permitted above, be liable to You for any '
+      'direct, indirect,         *'
+      '*  special, incidental, or consequential damages '
+      'of any character      *'
+      '*  including, without limitation, damages for lost '
+      'profits, loss of    *'
+      '*  goodwill, work stoppage, computer failure or '
+      'malfunction, or any    *'
+      '*  and all other commercial damages or losses, '
+      'even if such party      *'
+      '*  shall have been informed of the possibility of '
+      'such damages. This   *'
+      '*  limitation of liability shall not apply to liability '
+      'for death or   *'
+      '*  personal injury resulting from such party''s '
+      'negligence to the       *'
+      '*  extent applicable law prohibits such limitation. '
+      'Some               *'
+      '*  jurisdictions do not allow the exclusion or '
+      'limitation of           *'
+      '*  incidental or consequential damages, so this '
+      'exclusion and          *'
+      '*  limitation may not apply to You.                          '
+      '          *'
+      '*                                                                      *'
+      '***************************************************'
+      '*********************'
+      ''
+      '8. Litigation'
+      '-------------'
+      ''
+      'Any litigation relating to this License may be '
+      'brought only in the'
+      'courts of a jurisdiction where the defendant '
+      'maintains its principal'
+      'place of business and such litigation shall be '
+      'governed by laws of that'
+      'jurisdiction, without reference to its conflict-of-'
+      'law provisions.'
+      'Nothing in this Section shall prevent a party''s '
+      'ability to bring'
+      'cross-claims or counter-claims.'
+      ''
+      '9. Miscellaneous'
+      '----------------'
+      ''
+      'This License represents the complete agreement '
+      'concerning the subject'
+      'matter hereof. If any provision of this License is '
+      'held to be'
+      'unenforceable, such provision shall be reformed '
+      'only to the extent'
+      'necessary to make it enforceable. Any law or '
+      'regulation which provides'
+      'that the language of a contract shall be '
+      'construed against the drafter'
+      'shall not be used to construe this License against '
+      'a Contributor.'
+      ''
+      '10. Versions of the License'
+      '---------------------------'
+      ''
+      '10.1. New Versions'
+      ''
+      'Mozilla Foundation is the license steward. Except '
+      'as provided in Section'
+      '10.3, no one other than the license steward has '
+      'the right to modify or'
+      'publish new versions of this License. Each '
+      'version will be given a'
+      'distinguishing version number.'
+      ''
+      '10.2. Effect of New Versions'
+      ''
+      'You may distribute the Covered Software under '
+      'the terms of the version'
+      'of the License under which You originally '
+      'received the Covered Software,'
+      'or under the terms of any subsequent version '
+      'published by the license'
+      'steward.'
+      ''
+      '10.3. Modified Versions'
+      ''
+      'If you create software not governed by this '
+      'License, and you want to'
+      'create a new license for such software, you may '
+      'create and use a'
+      'modified version of this License if you rename '
+      'the license and remove'
+      'any references to the name of the license '
+      'steward (except to note that'
+      'such modified license differs from this License).'
+      ''
+      '10.4. Distributing Source Code Form that is '
+      'Incompatible With Secondary'
+      'Licenses'
+      ''
+      'If You choose to distribute Source Code Form '
+      'that is Incompatible With'
+      'Secondary Licenses under the terms of this '
+      'version of the License, the'
+      'notice described in Exhibit B of this License must '
+      'be attached.'
+      ''
+      'Exhibit A - Source Code Form License Notice'
+      '-------------------------------------------'
+      ''
+      '  This Source Code Form is subject to the terms '
+      'of the Mozilla Public'
+      '  License, v. 2.0. If a copy of the MPL was not '
+      'distributed with this'
+      '  file, You can obtain one at '
+      'http://mozilla.org/MPL/2.0/.'
+      ''
+      'If it is not possible or desirable to put the notice '
+      'in a particular'
+      'file, then You may include the notice in a '
+      'location (such as a LICENSE'
+      'file in a relevant directory) where a recipient '
+      'would be likely to look'
+      'for such a notice.'
+      ''
+      'You may add additional accurate notices of '
+      'copyright ownership.'
+      ''
+      'Exhibit B - "Incompatible With Secondary '
+      'Licenses" Notice'
+      '---------------------------------------------------'
+      '------'
+      ''
+      '  This Source Code Form is "Incompatible With '
+      'Secondary Licenses", as'
+      '  defined by the Mozilla Public License, v. 2.0.'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 3
+    Visible = False
   end
 end

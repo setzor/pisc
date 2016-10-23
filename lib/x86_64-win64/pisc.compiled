@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="c:\lazarus\fpc\2.4.2\bin\x86_64-win64\fpc.exe" Date="1048489592"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -gl -WG -vewnhi -l &quot;-FiC:\Users\George.DZB\Lazarus Projects\PISC\lib\x86_64-win64&quot; -Fuc:\lazarus\lcl\units\x86_64-win64 -Fuc:\lazarus\lcl\units\x86_64-win64\win32 -Fuc:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\George.DZB\Lazarus Projects\PISC\&quot; -Fu. &quot;-FUC:\Users\George.DZB\Lazarus Projects\PISC\lib\x86_64-win64\&quot; -opisc.exe -dLCL -dLCLwin32 pisc.lpr"/>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\x86_64-win64\fpc.exe" Date="1213098656"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiC:\Users\georg\Desktop\Projects\pisc\pisc\lib\x86_64-win64 -FuC:\lazarus\components\lazreport\source\lib\x86_64-win64 -FuC:\lazarus\components\printers\lib\x86_64-win64\win32 -FuC:\lazarus\components\ideintf\units\x86_64-win64\win32 -FuC:\lazarus\components\synedit\units\x86_64-win64\win32 -FuC:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuC:\lazarus\components\cairocanvas\lib\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\Users\georg\Desktop\Projects\pisc\pisc\ -FUC:\Users\georg\Desktop\Projects\pisc\pisc\lib\x86_64-win64\ -dLCL -dLCLwin32 pisc.lpr"/>
 </CONFIG>
